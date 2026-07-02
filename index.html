@@ -55,6 +55,7 @@
 	map.on('locationfound', onLocationFound);
 	map.on('locationerror', onLocationError);
 
+	map.setView(new L.LatLng(54.597285, -5.930023), 10);
 	map.locate({setView: true, maxZoom: 16});
 </script>
 
